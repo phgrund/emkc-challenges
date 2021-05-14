@@ -43,5 +43,5 @@ int main(int argc, char **argv) {
             maxIndex = i;
         }
     }
-    printf("%c\n", unique[maxIndex]);
+    printf("%c", unique[maxIndex]);
 }

@@ -62,5 +62,5 @@ int main(int argc, char **argv) {
     for (i = 0; i < size - 1; i++) {
         printf("%d,", values[i]);
     }
-    printf("%d\n", values[i]);
+    printf("%d", values[i]);
 }

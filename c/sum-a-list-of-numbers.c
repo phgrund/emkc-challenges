@@ -19,5 +19,5 @@ int main(int argc, char **argv) {
     }
     buffer[k] = '\0';
     sum += atoi(buffer);
-    printf("%d\n", sum);
+    printf("%d", sum);
 }

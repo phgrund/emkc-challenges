@@ -12,5 +12,5 @@ int main(int argc, char **argv) {
   }
   reversed[len] = '\0';
 
-  printf("%s\n", reversed);
+  printf("%s", reversed);
 }
